@@ -44,8 +44,9 @@ export default function NavBar() {
         </button>
       </div>
       {/* Mobile Menu */}
-      <div id="menu" className={`absolute ${showMenu ? 'flex' : 'hidden'} p-6 r ounded-lg bg-darkViolet left-6 right-6 top-20 z-100`}>
-        <div className="flex flex-col items-center justify center w-full space-y-6 font-bold text-white rounded-sm">
+      <div id="menu" className={`absolute ${showMenu ? 'flex' : 'hidden'} p-6 rounded-lg bg-darkViolet left-6 right-6 top-20 z-100`}>
+        <div className="flex flex-col items-center justify center w-full space-y-6 
+        font-bold text-white rounded-sm">
           <a href="#" className="w-full text-center">Features</a>
           <a href="#" className="w-full text-center">Pricing</a>
           <a href="#" className="w-full text-center">Resources</a>
